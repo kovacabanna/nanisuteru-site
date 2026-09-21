@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー｜ナニステル？</title>
+<meta name="description" content="「ナニステル？」のプライバシーポリシー。撮った写真も、登録した情報も、すべて端末の中だけで処理します。外部のサーバーへ送信することはありません。">
+<style>
+  :root{--bg:#f6f5ec;--card:#fffefa;--ink:#2b2b2b;--sub:#6b6b6b;--line:#e2dfcd;--uguisu:#6e6a2c;--uguisu-l:#a8a25c}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;background:var(--bg);color:var(--ink);line-height:1.95;font-size:22px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  nav{padding:14px 0;border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:12px}
+  nav img{width:38px;height:38px;border-radius:9px;display:block}
+  .logo{font-size:22px;font-weight:700;letter-spacing:.04em}
+  header.t{padding:40px 0 8px}
+  header.t h1{font-size:28px;letter-spacing:.04em}
+  header.t .date{color:var(--sub);font-size:17px;margin-top:8px}
+  main{padding:16px 0 56px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-top:16px}
+  h2{font-size:21px;margin-bottom:10px;color:var(--uguisu)}
+  p{font-size:19px;margin-bottom:10px}
+  ul{margin:6px 0 6px 20px}
+  li{font-size:19px;margin-bottom:6px}
+  .intro{font-size:19px;color:var(--sub)}
+  .lead{background:#eef0df;border:1px solid var(--line);border-left:5px solid var(--uguisu-l);border-radius:12px;padding:18px 20px;margin-top:18px}
+  .lead p{margin-bottom:0;font-size:19px}
+  .tablewrap{overflow-x:auto;margin:10px 0}
+  table{border-collapse:collapse;width:100%;min-width:520px}
+  th,td{border:1px solid var(--line);padding:9px 11px;font-size:17px;text-align:left;vertical-align:top}
+  th{background:#eef0df;color:var(--uguisu);white-space:nowrap}
+  a{color:var(--uguisu)}
+  footer{border-top:1px solid var(--line);padding:28px 0 50px;text-align:center;color:var(--sub);font-size:17px}
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <img src="img/icon.png" alt="">
+    <div class="logo">ナニステル？</div>
+  </div>
+</nav>
+<header class="t">
+  <div class="wrap">
+    <h1>プライバシーポリシー</h1>
+    <div class="date">最終更新日：2026年9月21日</div>
+  </div>
+</header>
+<main class="wrap">
+
+  <p class="intro" style="margin-top:8px">「ナニステル？」（以下「本アプリ」）は、捨てたい物の名前が分からなくても、確実にごみを出せるようにするためのアプリです。本ポリシーは、本アプリが利用者の情報をどのように扱うかを説明します。</p>
+
+  <div class="lead">
+    <p><strong>本アプリは、利用者の情報を外部へ送信しません。</strong>撮った写真も、登録した収集日も、自分専用の辞書も、すべて利用者の端末の中だけで処理・保存されます。開発者が用意したサーバーは存在せず、開発者が利用者の情報を受け取ることはありません。アカウント登録も不要です。</p>
+  </div>
+
+  <section>
+    <h2>1. 本アプリが扱う情報と、その使いみち</h2>
+    <div class="tablewrap">
+      <table>
+        <tr><th>扱うもの</th><th>何に使うか</th><th>どこに保存されるか</th></tr>
+        <tr><td>撮影した写真／アルバムから選んだ写真</td><td>写っている物が何ゴミかを判定する</td><td>判定のあいだ端末内で扱うだけ。保存も送信もしない</td></tr>
+        <tr><td>ごみの収集日（分類・曜日・週など）</td><td>次の収集日の計算、通知、ウィジェット表示</td><td>端末内</td></tr>
+        <tr><td>自分専用の辞書（品名と分類の対応）</td><td>判定結果を自分の住まいのルールに合わせる</td><td>端末内</td></tr>
+        <tr><td>お住まいの地域名（市区町村・地区名まで）</td><td>自治体の分別ルールをWebで調べるときの検索語に使う</td><td>登録を選んだ場合のみ端末内</td></tr>
+        <tr><td>現在地（位置情報）</td><td>地域名が未登録のときに、その場で地域名を求める</td><td>保存しない</td></tr>
+        <tr><td>取り込んだファイル（CSV・PDF・テキストなど）</td><td>自分専用の辞書を作る</td><td>端末内</td></tr>
+      </table>
+    </div>
+    <p>いずれも、開発者や第三者に送信されることはありません。</p>
+  </section>
+
+  <section>
+    <h2>2. 写真と、判定の仕組み</h2>
+    <p>本アプリの中心となる「写真で判定する」機能は、<strong>すべて端末の中だけで動きます</strong>。Appleが端末に用意している画像認識（Vision）と、端末内で動く人工知能（Apple Intelligence の基盤モデル）を使っており、写真が端末の外に出ることはありません。</p>
+    <p>アルバムから写真を選ぶ場面では、iOS標準の写真選択画面を使っています。この方式では、<strong>利用者が選んだその写真だけ</strong>が本アプリに渡されます。本アプリがアルバム全体を見ることはできませんし、写真へのアクセス許可を求めることもありません。</p>
+    <p>撮影した写真は判定のために一時的に扱うだけで、本アプリが勝手に保存することはありません。</p>
+  </section>
+
+  <section>
+    <h2>3. 位置情報</h2>
+    <p>位置情報は、<strong>お住まいの地域が未登録のときにかぎり</strong>、その場で地域名（市区町村・地区名まで）を求めるために使います。番地などの細かい住所は求めませんし、保存もしません。</p>
+    <p>「地域を登録する」を選んだ場合だけ、その<strong>地域名（文字）</strong>が端末内に保存されます。緯度・経度そのものが保存されることはありません。地域を登録しておけば、以後は位置情報を使いません。</p>
+    <p>位置情報の利用はいつでも、iOSの「設定」アプリから停止できます。</p>
+  </section>
+
+  <section>
+    <h2>4. 連絡先</h2>
+    <p>お住まいの地域を登録する方法のひとつとして、連絡先に登録されているご自身の住所から地域名を取り込むことができます。</p>
+    <p>ここでもiOS標準の連絡先選択画面を使っており、<strong>利用者が選んだ1件の情報だけ</strong>が本アプリに渡されます。本アプリが連絡先全体を読み取ることはできませんし、連絡先へのアクセス許可を求めることもありません。取り込んだあと端末内に残るのは<strong>地域名だけ</strong>で、氏名・電話番号・メールアドレスは保持しません。</p>
+  </section>
+
+  <section>
+    <h2>5. カレンダー</h2>
+    <p>収集日をカレンダーに追加する機能を使うときだけ、カレンダーへの<strong>書き込み</strong>の許可を求めます。本アプリは<strong>既存の予定を読み取りません</strong>（書き込み専用の許可のみを求めます）。</p>
+  </section>
+
+  <section>
+    <h2>6. 通知</h2>
+    <p>収集日のお知らせは、<strong>端末の中だけで予約される通知</strong>です。外部のサーバーから配信されるもの（プッシュ通知）ではないため、通知のために利用者の情報が外部へ送られることはありません。</p>
+  </section>
+
+  <section>
+    <h2>7. 自分専用の辞書について（本アプリの最も重要な約束）</h2>
+    <p>本アプリには、判定結果を自分の住まいのルールに合わせて覚えさせる「自分専用の辞書」があります。</p>
+    <p><strong>自分専用の辞書は、ご本人の端末に閉じたまま、ほかの利用者と共有することも、開発者が集めることも、絶対にありません。</strong>これは本アプリの設計上の約束です。</p>
+    <p>また本アプリは、自治体が公開しているデータ（PDF・CSV等）そのものを保持しません。品目の判定には、開発者が独自に作成した一般的なルール集を使い、収集日は利用者が入力したものだけを使います。</p>
+  </section>
+
+  <section>
+    <h2>8. 収集ルールの受け渡し（AirDrop）</h2>
+    <p>ご家族などに収集ルールを渡す機能があります。この受け渡しは、<strong>利用者が自分で操作したときにだけ</strong>行われ、AppleのAirDropなど端末どうしの受け渡しの仕組みを使います。開発者のサーバーを経由しません。</p>
+    <p>渡されるのは、<strong>利用者がその場で選んだ収集ルール（分類名と曜日などの決まり）だけ</strong>です。次のものは含まれません。</p>
+    <ul>
+      <li>自分専用の辞書</li>
+      <li>お住まいの地域名</li>
+      <li>通知のオン／オフの設定</li>
+      <li>写真・連絡先・位置情報</li>
+    </ul>
+    <p>受け取った側も、取り込むかどうかをその場で選べます。勝手に上書きされることはありません。</p>
+  </section>
+
+  <section>
+    <h2>9. 外部のサイトへ移動する場合</h2>
+    <p>判定結果の画面には「お住まいの自治体の情報をWebで調べる」という機能があります。これを選ぶと、<strong>検索サイト（Google）の検索結果</strong>が開きます。このとき検索語として、品名と、登録済みまたはその場で求めた地域名が使われます。</p>
+    <p>本アプリを離れたあとの情報の扱いは、移動先のサイトの方針によります。移動先のサイトのプライバシーポリシーをご確認ください。</p>
+    <p>また、画面の下部に姉妹アプリ「MyCIRQL」の紹介が表示されることがあります。これを選ぶと App Store のページが開きます。この紹介の表示・非表示を決めるために、本アプリは<strong>「MyCIRQLがこの端末に入っているかどうか」だけ</strong>を端末内で確認します。これはiOSが用意している仕組みによる確認で、個人を識別する情報を取得することも、外部へ送信することもありません。</p>
+  </section>
+
+  <section>
+    <h2>10. 広告・利用状況の収集について</h2>
+    <p>本アプリには、<strong>第三者の広告は一切入っていません</strong>。利用状況を集めるための解析ツール（アナリティクス）や、追跡のための仕組みも組み込んでいません。広告識別子（IDFA）の取得や、利用者を追跡する行為は行いません。</p>
+    <p>本アプリは無料で、アプリ内課金もありません。</p>
+  </section>
+
+  <section>
+    <h2>11. データの削除方法・保存期間</h2>
+    <p>本アプリに登録した情報は、次の方法でいつでもご自身で削除できます。</p>
+    <ul>
+      <li><strong>個別に削除する</strong>：アプリ内の「収集ルール」「自分の辞書」「設定」の各画面から削除できます。その場ですぐに削除されます。</li>
+      <li><strong>すべて削除する</strong>：本アプリをアンインストール（削除）すると、端末内に保存されていた本アプリのデータはすべて削除されます。</li>
+    </ul>
+    <p>削除の対象は、本ポリシー第1章に記載したすべての情報です。これらは開発者のサーバーには一切保存されていないため、開発者側で削除の手続きを行う必要はなく、利用者が上記の操作をした時点で削除が完了します。開発者の手元にデータが残ることはありません。</p>
+  </section>
+
+  <section>
+    <h2>12. お子様の利用について</h2>
+    <p>本アプリは、お子様を対象として設計されたものではありませんが、外部への情報の送信を行わないため、お子様が使った場合にも情報が外部に出ることはありません。</p>
+  </section>
+
+  <section>
+    <h2>13. 本ポリシーの変更</h2>
+    <p>本ポリシーの内容は、必要に応じて変更することがあります。変更した場合は、本ページに掲載した時点で効力を生じます。</p>
+  </section>
+
+  <section>
+    <h2>14. お問い合わせ</h2>
+    <p>本アプリおよび本ポリシーに関するお問い合わせは、次の連絡先までお願いいたします。</p>
+    <p>メール：<a href="mailto:mycirql@gmail.com">mycirql@gmail.com</a></p>
+  </section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p>© 2026 ナニステル？</p>
+  </div>
+</footer>
+</body>
+</html>
